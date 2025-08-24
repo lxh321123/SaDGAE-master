@@ -1,0 +1,30 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='GNN', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
+parser.add_argument("--name", type=str, default="Quake_10x_Limb_Muscle")
+parser.add_argument("--n_clusters", type=int, default=6)
+parser.add_argument("--hvg", type=int, default=2000)
+parser.add_argument("--neighbors", type=int, default=15)
+parser.add_argument("--lr", type=float, default=1e-4)
+parser.add_argument("--epochs", type=int, default=300)
+parser.add_argument("--patience", type=int, default=5)
+parser.add_argument("--save_ae_model_path", type=str, default="../dataset/")
+parser.add_argument("--save_gnn_model_path", type=str, default="../dataset/")
+parser.add_argument('--save_final_model_path', type=str, default="../dataset/")
+parser.add_argument('--ae_en_1', type=int, default=1024)
+parser.add_argument('--ae_en_2', type=int, default=512)
+parser.add_argument('--ae_en_3', type=int, default=128)
+parser.add_argument("--output_size", type=int, default=64)
+parser.add_argument('--ae_de_1', type=int, default=128)
+parser.add_argument('--ae_de_2', type=int, default=512)
+parser.add_argument('--ae_de_3', type=int, default=1024)
+parser.add_argument('--active', type=bool, default=True)
+parser.add_argument("--gnn_en_1", type=int, default=256)
+parser.add_argument("--gnn_en_2", type=int, default=128)
+parser.add_argument("--n_z", type=int, default=64)
+parser.add_argument('--gnn_de_1', type=int, default=128)
+parser.add_argument('--gnn_de_2', type=int, default=256)
+
+
+args = parser.parse_args()

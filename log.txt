@@ -1,0 +1,84 @@
+pretrain: 
+the size of Muraro is (2122, 19046)
+(2122, 1500)
+best ari is 0.89519, best nmi is 0.84946
+datasset=Muraro, hvg=1500, neighbors=9 
+formal train: 
+the size of Muraro is (2122, 19046)
+(2122, 1500)
+best ari is 0.91461, best nmi is 0.87295
+------------------------------------------------------------------------------------- 
+pretrain: 
+the size of Pollen is (301, 21721)
+(301, 1000)
+best ari is 0.87687, best nmi is 0.90615
+datasset=Pollen, hvg=1000, neighbors=12 
+formal train: 
+the size of Pollen is (301, 21721)
+(301, 1000)
+best ari is 0.96102, best nmi is 0.95711
+------------------------------------------------------------------------------------- 
+pretrain: 
+the size of Quake_10x_Bladder is (2500, 23341)
+(2500, 1500)
+best ari is 0.56536, best nmi is 0.64990
+datasset=Quake_10x_Bladder, hvg=1500, neighbors=13 
+formal train: 
+the size of Quake_10x_Bladder is (2500, 23341)
+(2500, 1500)
+best ari is 0.80776, best nmi is 0.81049
+------------------------------------------------------------------------------------- 
+pretrain: 
+the size of Quake_Smart-seq2_Diaphragm is (870, 23341)
+(870, 1000)
+best ari is 0.95096, best nmi is 0.90025
+datasset=Quake_Smart-seq2_Diaphragm, hvg=1000, neighbors=6 
+formal train: 
+the size of Quake_Smart-seq2_Diaphragm is (870, 23341)
+(870, 1000)
+best ari is 0.98723, best nmi is 0.97337
+------------------------------------------------------------------------------------- 
+pretrain: 
+the size of Romanov is (2881, 21143)
+(2881, 500)
+best ari is 0.64023, best nmi is 0.65166
+datasset=Romanov, hvg=500, neighbors=5 
+formal train: 
+the size of Romanov is (2881, 21143)
+(2881, 500)
+best ari is 0.59829, best nmi is 0.57077
+------------------------------------------------------------------------------------- 
+pretrain: 
+the size of Klein is (2717, 24047)
+(2717, 1500)
+best ari is 0.90276, best nmi is 0.86869
+datasset=Klein, hvg=1500, neighbors=15 
+formal train: 
+the size of Klein is (2717, 24047)
+(2717, 1500)
+best ari is 0.93346, best nmi is 0.90043
+------------------------------------------------------------------------------------- 
+pretrain: 
+(124, 1500)
+best ari is 0.74012, best nmi is 0.81606
+datasset=goolam, hvg=1500, neighbors=13 
+formal train: 
+(124, 1500)
+best ari is 0.78953, best nmi is 0.80366
+------------------------------------------------------------------------------------- 
+pretrain: 
+(90, 1500)
+best ari is 0.53864, best nmi is 0.81132
+datasset=Yan, hvg=1500, neighbors=5 
+formal train: 
+(90, 1500)
+best ari is 0.90776, best nmi is 0.93123
+------------------------------------------------------------------------------------- 
+pretrain: 
+(1600, 1500)
+best ari is 0.79382, best nmi is 0.67986
+datasset=Xin, hvg=1500, neighbors=13 
+formal train: 
+(1600, 1500)
+best ari is 0.80917, best nmi is 0.68349
+------------------------------------------------------------------------------------- 

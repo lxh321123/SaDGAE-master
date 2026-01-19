@@ -1,2 +1,2 @@
-# scDeGAEsa-master
-Python implementation of scDeGAEsa
+# SaDGAE-master
+Python implementation of SaDGAE
